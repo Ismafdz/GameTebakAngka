@@ -22,10 +22,9 @@ import random  # Library untuk menghasilkan angka acak
 import time  # Library untuk memberikan jeda waktu
 
 
-def game_tebak_angka():
+  def game_tebak_angka():
     print("\n=== GAME TEBAK ANGKA ===")
-    print("Saya telah memilih angka antara 1 hingga 100. Coba tebak!")
-    
+    print("Saya telah memilih angka antara 1 hingga 100. Coba tebak!")  
     angka_rahasia = random.randint(1, 100)  # Komputer memilih angka acak antara 1 hingga 100
     percobaan = 0  # Variabel untuk menyimpan jumlah percobaan yang dilakukan pemain
     riwayat_tebakan = []  # Struktur data: list untuk menyimpan semua tebakan pemain
