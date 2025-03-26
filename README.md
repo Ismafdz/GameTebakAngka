@@ -1,5 +1,6 @@
 # GameTebakAngka
 Permainan sederhana di mana pemain mencoba menebak angka yang telah dipilih secara acak oleh komputer dalam rentang 1 hingga 100.
+
 **Cara bermain:**
 - Komputer memilih angka secara acak.
 - Pemain memasukkan angka tebakan.
