@@ -18,7 +18,9 @@ Permainan sederhana di mana pemain mencoba menebak angka yang telah dipilih seca
 **Penjelasan Code :**
 
 import random  # Library untuk menghasilkan angka acak
+
 import time  # Library untuk memberikan jeda waktu
+
 
 def game_tebak_angka():
     print("\n=== GAME TEBAK ANGKA ===")
@@ -51,8 +53,8 @@ def game_tebak_angka():
     
     print("Terima kasih sudah bermain!")
     time.sleep(2)  # Memberikan jeda 2 detik sebelum program selesai
+    game_tebak_angka()  # Memanggil fungsi utama untuk menjalankan game
 
-game_tebak_angka()  # Memanggil fungsi utama untuk menjalankan game
 -----------------------------------------------------------------------------------------------
 
 **Penjelasan Konsep dalam Program:**
